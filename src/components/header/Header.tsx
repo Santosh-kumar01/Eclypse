@@ -33,9 +33,7 @@ const Header = () => {
       {showOverlay && (
         <div className="fixed inset-0 z-[100] bg-white dark:bg-black text-black dark:text-white flex flex-col items-center justify-center px-6">
           <h2 className="text-2xl sm:text-3xl font-semibold mb-6">Buy Product</h2>
-          <p className="text-center max-w-md mb-8">
-            This is where your product purchase content/form goes. You can replace this with a checkout or product details.
-          </p>
+         
           <button
             onClick={() => setShowOverlay(false)}
             className="mt-4 bg-black text-white dark:bg-white dark:text-black px-6 py-2 rounded-md"
